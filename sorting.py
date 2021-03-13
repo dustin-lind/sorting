@@ -136,7 +136,7 @@ def merge_sorted(xs, cmp=cmp_standard):
     if len(xs_copy) <= 1:
         return xs_copy
     else:
-        mid = len(xs_copy)//2
+        mid = len(xs_copy) // 2
         lefthalf = xs_copy[:mid]
         righthalf = xs_copy[mid:]
 
